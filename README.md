@@ -1,0 +1,3 @@
+# ServletExamples
+此项目是为照抄孤傲苍狼博客上源代码，目的是为了仔细体会response.encodeRedirectURL()和response.encodeURL()方法，同时也是第一次使用IDEA上传文件，
+当浏览器禁用cookie时，可以通过这种方式重写，以解决session共享问题，这两个方法是非常智能的，当检测到浏览器没有禁用cookie时，不会进行URL重写
